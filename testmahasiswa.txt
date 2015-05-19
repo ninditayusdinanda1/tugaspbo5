@@ -1,0 +1,14 @@
+/**
+ * Created by Nin on 19/05/2015.
+ */
+public class testmahasiswa {
+    public static void main(String[] args) {
+        mahasiswa mhs = new mahasiswa("nindita yusdinanda",20);
+        mhs.tampilkanbiodata();
+
+        System.out.println();
+
+        mhs.setUmur (25);
+        mhs.tampilkanbiodata();
+    }
+}
